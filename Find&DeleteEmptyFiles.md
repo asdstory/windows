@@ -1,5 +1,5 @@
 # Save following code as .bat.
-# Double click .bat to remove all empty folder。
+# Double click .bat to remove all empty folder
 ```
 @pause
 @echo clean disk c
