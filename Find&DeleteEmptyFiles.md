@@ -1,5 +1,6 @@
-@Save following code as .bat.
-@Double click .bat to remove all empty folder。
+# Save following code as .bat.
+# Double click .bat to remove all empty folder。
+```
 @pause
 @echo clean disk c
 dir c: /ad /b /s |sort /r >>c:kill.txt
@@ -16,3 +17,4 @@ dir e: /ad /b /s |sort /r >>e:kill.txt
 For /f %%i in (e:kill.txt) DO rd %%i
 echo y |del e:kill.txt
 @echo All done, Thanks for using!
+```
